@@ -1,0 +1,7 @@
+/etc/letsencrypt/live/admin.toyotachikuro.jp/
+  cert.pem
+  chain.pem
+  fullchain.pem
+  privkey.pem
+  
+Enter file contents here
