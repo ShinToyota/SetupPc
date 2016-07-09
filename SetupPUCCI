@@ -1,0 +1,21 @@
+python3.5のインストール
+
+前提
+bash for windows10 がインストール済み
+  sudo apt-get update
+  sudo apt-get upgrade
+  
+  python2.4がインストール済み
+
+手順
+sudo add-apt-repository ppa:fkrull/deadsnakes
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-ge install python3.5
+
+cd /usr/bin
+sudo rm python3
+sudo ln -s python3.5 python3
+
+
+
